@@ -20,6 +20,29 @@ header {
 }
 
 
+/* Main */
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+
+footer{
+    background-color: #2b3a46;
+    padding: 15px 20px;
+    text-align: center;
+    
+}
+
+footer h3{
     color: aliceblue;
 }
